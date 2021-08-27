@@ -13,8 +13,8 @@ def main():
 	mode = 'r'
 	
 	# Example logging calls (insert into your program)
-	print("hello world git reference : commit id")
-	logging.info("hello world git reference : commit id")
+	print("hello world git reference")
+	logging.info("hello world git reference")
 	logging.info(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 	
 if __name__ == '__main__':

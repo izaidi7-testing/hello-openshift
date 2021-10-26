@@ -12,11 +12,11 @@ def main():
 	item = 'spam'
 	filename = 'data.csv'
 	mode = 'r'
-	for _ in range(10):
+	for i in range(15):
 		time.sleep(6)
 		# Example logging calls (insert into your program)
-		print("hello world git reference")
-		logging.info("hello world git reference master branch")
+		print("hello world git reference - {}".format(i))
+		logging.info("hello world git reference master branch - {}".format(i))
 		logging.info(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 if __name__ == '__main__':

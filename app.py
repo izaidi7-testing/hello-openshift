@@ -15,8 +15,8 @@ def main():
 	for i in range(15):
 		time.sleep(6)
 		# Example logging calls (insert into your program)
-		print("hello world git reference - {}".format(i))
-		logging.info("hello world git reference master branch - {}".format(i))
+		print "hello world python2 - {}".format(i)
+		logging.info("hello world python2 - {}".format(i))
 		logging.info(strftime("%Y-%m-%d %H:%M:%S", gmtime()))
 
 if __name__ == '__main__':
